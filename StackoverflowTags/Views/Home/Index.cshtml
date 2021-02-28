@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Stackoverflow Tags Statistics</h1>
+
+    <div class="col-12 border p-3">
+        <table id="DT_load_API" class="table table-striped table-bordered" style="width: 100%">
+            <thead>
+                <tr>
+                    <th>Lp.</th>
+                    <th>TagName</th>
+                    <th>TagQuestionsCounter</th>
+                    <th>PercentPopularity[%]</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+    <div class="col-12 border p-3">
+        <table id="DT_load" class="table table-striped table-bordered" style="width: 100%">
+            <thead>
+                <tr>
+                    <th>Lp.</th>
+                    <th>TagName</th>
+                    <th>TagQuestionsCounter</th>
+                    <th>PercentPopularity[%]</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+
+@section Scripts{
+    <script src="~/js/StackOverflow.js"></script>
+}
