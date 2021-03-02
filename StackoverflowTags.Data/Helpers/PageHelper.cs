@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StackoverflowTags.Helpers
+namespace StackoverflowTags.Data.Helpers
 {
     public class PageHelper
     {
